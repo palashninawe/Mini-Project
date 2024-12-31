@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.parent-cont{
+    width: 100%;
+}
+
+.nav1{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+.child-nav2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.d2{
+    margin-left: 5px;
+    color: white;
+}
+.heading1{
+    font-style: italic;
+    color: green;
+}
+.d3{
+    margin-left: 30px;    
+}
+.search-box{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.d4{
+    margin-left: 10px;
+}
+.btn-1{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+}
+.child-nav2-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.a2{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.home-green{
+    color: rgb(61, 174, 61);
+}
+.main-body-1{
+    width: 100%;
+    height: 780px;
+    background-color: rgb(61, 174, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child-main-body-1{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    width: 40%;
+    height: 100%;
+    padding-top: 180px;
+    
+}
+.div1-top{
+    margin-top: 50px;
+    padding: 22px;
+}
+.p2{
+    font-size: 32px;
+    color: rgb(46, 15, 76);
+}
+.heading2{
+    font-size: 40px;
+    color: rgb(46, 15, 76);
+}
+.p3{
+    font-size: 20px;    
+}
+.heading3{
+    font-style: italic;
+    color: green;
+    font-size: 19px;
+}
+.div1-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.search-box-1{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn-2{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+}
+.div2{
+    width: 60%;
+    height: 75%;
+    background-image: url(online-shopping-ladies-credit-card.png);
+    background-size: cover;
+    margin-top: 15%;
+}
+.main-body-2{
+    width: 100%;
+    height: 780px;
+    background-image: url(laptop-1.avif);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+a{
+    text-decoration: none;
+}
+.heading4{
+    font-size: 80px;
+    color: rgb(230, 217, 244);
+    font-style: italic;
+}
+.d5{
+    width: 550px;
+    height: 260px;
+    background-color: black;
+    padding: 30px;
+    opacity: 0.8;
+}
+.main-body-3{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+}
+.main-body-4{
+    width: 100%;
+    height: 500px;
+    background-image: url(oppo1.jpg);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.heading5{
+    font-size: 80px;
+}
+.heading6{
+    font-size: 30px;
+}
+.d7{
+    margin-top: 150px;
+}
+.heading7{
+    font-size: 20px;
+    color: gray;
+}
+.d8{
+    margin-top: 20px;
+}
+.btn-4{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-radius: 17px;
+    border: none;
+}
+.a4{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.main-body-5{
+    width: 100%;
+    height: 500px;
+    background-image: url(LG.avif);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.heading8{
+    color: white;
+}
+.heading9{
+    color: white;
+    font-size: 40px;
+}
+.d13{
+    margin-top: 20px;
+    width: 800px;
+    height: 350px;
+    background-image: url(Mini-LED-TVs1.jpg);
+    background-size: cover;
+}
+.dixey{
+    color: white;
+}
+.main-body-6{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.d11{
+    width: 12%;
+    height: 100%;
+    background-image: url(wall1.jpg);
+    background-size: cover;
+}
+.d12{
+    width: 88%;
+    height: 100%;
+    background-image: url(decor1.png);
+    background-size: cover;
+}
+.my-cls{
+    position: relative;
+    top: 330px;
+    left: 420px;
+}
+.main-body-7{
+    width: 100%;
+    height: 530px;
+    background-image: url(lakme.webp);
+    background-size: cover;
+}
+.d14{
+    position: relative;
+    top: 420px;
+    left: 1130px;
+}
+.btn-5{
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(199, 146, 11);
+    border: none;
+}
+.a5{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.main-body-8{
+    width: 100%;
+    height: 500px;
+    background-image: url(Electronics2.avif);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.para1{
+    color: white;
+    font-size: 60px;
+}
+.para2{
+    color: white;
+    font-size: 30px;
+}
+.btn-6{
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 17px;
+    border: none;
+}
+.a6{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 20px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.child-footer-cont-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.dot1{
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    font-size: 25px;
+}
+.my-mail{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.dot2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.child-footer-cont-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.dot3{
+    display: flex;
+    flex-direction: row;
+}
+.anch5{
+    margin-left: 10px;
+}
+.dot4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.my-login{
+    color: rgb(221, 175, 57);
+    font-size: 25px;
+}
+
+
